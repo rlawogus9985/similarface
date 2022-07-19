@@ -1,5 +1,6 @@
 # similarface
 
+```python
 import os
 import face_recognition
 import matplotlib.pyplot as plt
@@ -85,3 +86,4 @@ def get_nearest_face(name, top=7):
             print('순위 {} : 이름({}), 거리({})'.format(i, sorted_faces[i][0], sort_key_func(sorted_faces[i][0])))
 
 print(get_nearest_face(my_faces[0]))
+```
